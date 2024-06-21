@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 20px;
+    font-family: Arial, sans-serif; 
+}
+
+
+header {
+    background-image: url('../RES/calming-serene-ocean-abstract-260nw-687455338.webp');
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+   
+}
+container {
+    width: 80%; /* Chiều rộng của container */
+    margin: auto; /* Canh lề tự động */
+    text-align: justify; /* Canh lề văn bản trong container */
+}
+.container {
+    width: 80%; /* Chiều rộng của container */
+    margin: auto; /* Canh lề tự động */
+    text-align: justify; /* Canh lề văn bản trong container */
+    padding: 20px; /* Khoảng cách giữa nội dung và biên container */
+    max-width: 1200px; /* Giới hạn chiều rộng tối đa của container */
+}
+
+
+ footer{ 
+        padding:20px;
+        margin-top:20px;
+        color:#ffffff38;
+        background-color:#1d53e8;
+        text-align: center;
+    }
+
+
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+li a {
+    font-size: 20px; /* Kích thước chữ cho các liên kết bình thường */
+}
+
+li.current a {
+    font-size: 20px; /* Kích thước chữ cho liên kết có lớp 'current' */
+}
